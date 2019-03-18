@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3</title>
+
+    <style>
+        .required{
+            color:red;
+        }
+        table{
+            background: #9370DB;
+            padding: 5px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form name="registrationForm" id="registrationForm" >
+
+    <table>
+        <tr>
+            <td> <span class="required">*</span><label for="firstName">First Name: </label> </td>
+            <td><input type="text" name ="firstName" id="firstName" placeholder="First Name"><br></td>
+        </tr>
+
+        <tr>
+            <td> <span class="required">*</span><label for="lastName">Last Name: </label> </td>
+            <td> <input type="text" name ="lastName" id="lastName" placeholder="Last Name"><br> </td>
+        </tr>
+
+        <tr>
+            <td> <span class="required">*</span><label for="email">Email Id: </label></td>
+            <td><input type="email" name ="email" id="email" placeholder="Email Id"><br></td>
+        </tr>
+
+        <tr>
+            <td> <span class="required">*</span><label for="password">Password</label> </td>
+            <td> <input type="password" name ="password" id="password"> </td>
+        </tr>
+
+        <tr>
+            <td> <label for="introductory">Introductory Text</label> </td>
+            <td> <textarea rows="3" cols="15" id = "introductory" placeholder="introductory text"></textarea><br>
+        </tr>
+
+        <tr>
+            <td> <label for="birth">Date of Birth: </label></td>
+            <td> <input type="date" name = "birth" id = "birth"><br>
+        </tr>
+
+        <tr>
+            <td> <span class="required">*</span><label for="mobile">Mobile Number : </label>  </td>
+            <td> <input type="number" name = "mobile" id ="mobile" placeholder="mobile number"> </td>
+        </tr>
+
+        <tr>
+            <td>  Gender : </td>
+            <td>  <input type="radio" name="gender" id="male" value="male">
+                  <label for="province">Male : </label>
+                  <input type="radio" name="gender" id="female" value="female">
+                  <label for="province">Female : </label>
+                  <input type="radio" name="gender" id="other" value="other"> 
+                  <label for="province">Other : </label><br> </td>
+        </tr>
+
+        <tr>
+            <td> <label for="address">Address : </label> </td>
+            <td> <input type="text" name ="address" id = "address" placeholder="Address"><br> </td>
+        </tr>
+
+        <tr>
+            <td> <label for="city">City : </label> </td>
+            <td> <input type="text" name ="city" id="city" placeholder="city"><br> </td>
+        </tr>
+
+        <tr>
+            <td> <label for="province">Province : </label> </td>
+            <td>
+                <select name="province" id = "province" size= "1">
+                    <option>Select a province</option>
+                    <option label="AB">Alberta</option>
+                    <option label="BC">British Columbia</option>
+                    <option label="MB">Manitoba</option>
+                    <option label="NB">New Brunswick</option>
+                    <option label="NL">Newfoundland</option>
+                    <option label="NS">Nova Scotia</option>
+                    <option label="ON">Ontario</option>
+                    <option label="SK">Saskatchewan</option>
+                    <option label="PEI">Prince Edward Island</option>
+                    <option label="YK">Yukon</option>
+                    <option label="QC">Québec</option>
+                </select><br> </td>
+        </tr>
+
+        <tr>
+            <td> <label for="country">Country : </label></td>
+            <td>
+                <select name="country" id = "country" size= "1">
+                    <option>Select a Country</option>
+                    <option label="AU">Australia</option>
+                    <option label="AT">Austria</option>
+                    <option label="BR">Brazil</option>
+                    <option label="CA">Canada</option>
+                    <option label="CN">China</option>
+                    <option label="CU">cuba</option>
+                    <option label="FI">Finland</option>
+                    <option label="US">United states</option>
+                    <option label="MX">Mexico</option>
+                    <option label="NP">Nepal</option>
+                </select><br> </td>
+        </tr>
+
+        <tr>
+            <td> <label for="postalCode">Postal Code : </label> </td>
+            <td> <input type="text" name = "postalCode" id = "postalCode" placeholder="Postal Code"><br> </td>
+        </tr>
+
+        <tr>
+            <td> Hobbies :</td>
+            <td>   
+                <label for="baking">Baking : </label> 
+                <input type="checkbox" name="hobbies" id="baking" value="yes">
+                <label for="boxing">Boxing : </label> 
+                <input type="checkbox" name="hobbies" id="boxing" value="yes">
+                  
+                  <label for="Cooking">Cooking : </label> 
+                  <input type="checkbox" name="hobbies" id="Cooking" value="yes">
+                  
+                  <label for="Camping">Camping : </label> 
+                  <input type="checkbox" name="hobbies" id="Camping" value="yes"><br>
+                  
+                  <label for="Sailing">Sailing : </label> 
+                  <input type="checkbox" name="hobbies" id="Sailing" value="yes">
+                  
+                  <label for="Shopping">Shopping : </label> 
+                  <input type="checkbox" name="hobbies" id="Shopping" value="yes">
+                  
+                  <label for="Travelling">Travelling : </label> 
+                  <input type="checkbox" name="hobbies" id="Travelling" value="yes"><br> </td>
+        </tr>
+
+
+        <tr>
+            <td>  <label for="website">Website : </label></td>
+            <td>  <input type="url" name="website" id = "website" placeholder="http://"><br> </td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" onclick="alert('submit success!')"></td>
+            <td><input type="reset" name="btnReset" id="btnReset" value="Reset"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
