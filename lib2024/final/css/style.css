@@ -1,0 +1,133 @@
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-s268{text-align:left}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+
+
+body {
+    margin: 0px;
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dynamic-style.png)
+}
+body section{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.quicklinks {
+    text-align: left;
+    margin-left:40%;
+    font-size: 10
+}
+
+.address {
+    text-align: left;
+    margin-left:40%;
+    font-size: 10;
+    margin-bottom: 1px
+}
+
+.followus {
+    padding-top: 20
+}
+.followus img{
+    width:40
+}
+
+.profilecard {
+    font-size:10px
+}
+
+nav table th{
+  height:50px;
+    width:19%;
+    font-size:12px
+}
+
+nav {
+    background-color: #72a9ae
+}
+
+body section h3{
+    color: #72a9ae !important
+}
+
+footer {
+    background-color: #454545;
+    color:white
+}
+#footerTb {
+    color:white;
+    width:100%
+}
+
+footer th {
+    width:30%
+}
+
+#footerPad {
+     height:20px
+}
+
+#province {
+    width:100%
+}
+
+
+#infoCardTd {
+    width:33%;
+    text-align: center
+}
+#infoCardDiv {
+    width: 80%;margin-left: 20%
+}
+#infoCardDiv h3 {
+    text-align: left
+}
+#profileCard {
+    width:70%;box-shadow: 1px 1px 5px 5px #888888;
+margin-top:10px;text-align: center;background: white;
+}
+#profileImg {
+    width:50px;margin-top:20
+}
+#profileEmailImg {
+    width:30px;margin-bottom: 10px
+}
+#imgAboutTH {
+    width: 30%
+}
+#imgAbout {
+    width:300px
+}
+#aboutTh {
+    text-align: left; width: 70%
+}
+
+#scheduleTb{
+    width:100%
+}
+#profileSection {
+    text-align: left;
+}
+#profileSectionTb{
+    width:100%
+}
+#profileSection td {
+    width:33%;text-align: center
+}
+#editProfile {
+    width: 40%;display: inline-block;
+}
+#editProfile h3 {
+    text-align: left
+}
+
+#profileName {
+    color:#72a9ae
+}
+
+#submitTd {
+    text-align: right !important
+}

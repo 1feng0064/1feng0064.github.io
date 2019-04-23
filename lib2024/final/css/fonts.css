@@ -1,0 +1,11 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo {
+    font-family: 'Russo One', sans-serif;
+    font-style:italic;
+    font-size: 24;
+    color: #72a9ae
+}

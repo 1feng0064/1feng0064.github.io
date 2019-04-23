@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans|Russo+One" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+        <title>Final Assignment</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <header>
+        <section>
+            <h1>
+            My Logo
+            </h1>
+        </section>
+        
+
+        <nav>
+            <table class="nav">
+              <tr>
+                <th> HOME </th>
+                <th> ABOUT</th>
+                <th> SCHEDULE</th>
+                <th> PORTFOLIO</th>
+                <th> CONTACT</th>
+                <th></th>
+              </tr>
+            </table>
+        </nav>
+        </header>
+        
+        <section>
+            <h3>
+                ABOUT
+            </h3>
+            <table>
+              <tr>
+                <th id="aboutTh"> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </th>
+                <th id="imgAboutTH"> 
+                    <img id="imgAbout" src="img/pic1.png" alt="pic1">
+                </th>
+              </tr>
+            </table>
+        </section>
+        <section>
+            <h3>
+                SCHEDULE
+            </h3>
+
+                <table id="scheduleTb" class="tg">
+                  <tr>
+                    <th class="tg-s268">TIME</th>
+                    <th class="tg-0lax">MONDAY</th>
+                    <th class="tg-0lax">TUESDAY</th>
+                    <th class="tg-0lax">WEDNESDAY</th>
+                    <th class="tg-0lax">THURSDAY</th>
+                    <th class="tg-0lax">FRIDAY</th>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">09:00 – 11:00</td>
+                    <td class="tg-0lax">Communication I</td>
+                    <td class="tg-0lax">Client Services</td>
+                    <td class="tg-0lax">Special Collections</td>
+                    <td class="tg-0lax">Directed Research Seminar</td>
+                    <td class="tg-0lax">Client Services</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">11:00 – 12:30</td>
+                    <td class="tg-0lax">Reference</td>
+                    <td class="tg-0lax">Internet App </td>
+                    <td class="tg-0lax">Library Software</td>
+                    <td class="tg-0lax">French</td>
+                    <td class="tg-0lax">Reference</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">14:00 – 15:00</td>
+                    <td class="tg-0lax">Acquisitions</td>
+                    <td class="tg-0lax">General Elective</td>
+                    <td class="tg-0lax">Marketing</td>
+                    <td class="tg-0lax">Emerging Library Tech</td>
+                    <td class="tg-0lax">Library Software</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-0lax">15:30 – 17:30 </td>
+                    <td class="tg-0lax">French</td>
+                    <td class="tg-0lax">French</td>
+                    <td class="tg-0lax">Acquisitions</td>
+                    <td class="tg-0lax">Subject Analysis</td>
+                    <td class="tg-0lax">Internet App</td>
+                  </tr>
+                </table>
+        </section>
+        <section id="profileSection">
+            
+        <table id="profileSectionTb">
+        <tr>
+        <td>
+          <div id="editProfile" > 
+            <h3>
+                EDIT PROFILE
+            </h3>
+                <form>
+            <table>
+              <tr>
+                <td>Name:</td>
+                  <th><input id="name" placeholder="Name" type="text"> </th>
+              </tr>
+              <tr>
+                <td>Email:</td>
+                <td><input id="email" placeholder="abcdef@example.com" type="email"></td>
+              </tr>
+              <tr>
+                <td>Address:</td>
+                <td><input id="address"  placeholder="e.g. 123 Roofal Ave" type="text"></td>
+              </tr>
+              <tr>
+                <td>City:</td>
+                <td><input id="city" type="text"></td>
+              </tr>
+              <tr>
+                <td>Province:</td>
+                <td>
+                <select id="province">
+                  <option value="">Select Province </option>
+                  <option value="ON">Ontario</option>
+                  <option value="QB">Quebec</option>
+                  <option value="AL">Alberta</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Post Code:</td>
+                <td>
+                    <input  id="postcode" type="text" placeholder="Zip Code" title="Please enter a Zip Code" pattern="^[a-zA-Z]\d[a-zA-Z]\d[a-zA-Z]\d$">
+                </td>
+              </tr>
+              <tr>
+                <td id="submitTd" colspan="2">
+                  <button type="button" id="btnSubmit"> Submit</button>
+                </td>
+              </tr>
+            </table>
+                </form>
+            </div>
+          </td>
+        <td id="infoCardTd">
+            <div id="infoCardDiv"> 
+            <h3>
+                PROFILE INFO
+              </h3>  
+                <div id="profileCard">
+                    
+                    <img id="profileImg" class="round" src="img/twitter.png" alt="Avatar">
+                    
+                    <p id="profileName" class="profile">John Due</p>
+                    <div class="profilecard">
+                         <p id="profileAddress">
+                        1385 Woodrofe Ave
+                        </p>
+                        <p id="profileCityProvinceZip">Nepean, ON K2G 1V8</p>
+                        <P>Canada</P>
+                    </div>
+                    <img id="profileEmailImg" src="img/mail.png" alt="profile email">
+                </div>
+            
+        </div></td>
+       
+        </tr>
+    </table>
+            
+            
+        </section>
+        <footer>
+           <table id="footerTb">
+              <tr>
+                <th> 
+                    
+                    <p> QUICK LINKS</p>
+                    <div class="quicklinks">
+                        <p>
+                        SCHEDULE
+                        </p>
+                        <p>ABOUT</p>
+                        <P>POLIFORLIO</P>
+                        <p>CONTACT</p>  
+                    </div>
+                   
+                  
+                </th>
+                <th> 
+                    FOLLOW US
+                    <div class="followus">
+                        <img src="img/facebook.png" alt="facebook">
+                        <img src="img/youtube.png" alt="youtube">
+                        <img src="img/twitter.png" alt="twitter">
+                    </div>
+                </th>
+                <th> 
+                    ADDRESS
+                    <div class="address">
+                        <p>
+                        1385 Woodrofe Ave
+                        </p>
+                        <p>Nepean, ON K2G 1V8</p>
+                        <P>Canada</P>
+                    </div>
+                </th>
+              </tr>
+            </table>
+            <div id="footerPad">
+            </div>
+            
+        </footer>
+    </body>
+</html>
